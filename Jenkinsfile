@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install --registry https://registry.npmmirror.com'
+                sh 'sudo npm install --registry https://registry.npmmirror.com'
             }
         }
     }
